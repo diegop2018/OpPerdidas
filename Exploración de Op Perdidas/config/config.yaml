@@ -1,0 +1,27 @@
+# Configuración del proyecto
+project:
+  name: "Mi Proyecto de Datos"
+  version: "1.0.0"
+  description: "Análisis de datos con Python"
+
+# Rutas de datos
+data:
+  raw: "data/raw/"
+  processed: "data/processed/"
+  external: "data/external/"
+  interim: "data/interim/"
+
+# Configuración de modelos
+models:
+  output_dir: "models/trained/"
+  evaluation_dir: "models/evaluation/"
+
+# Configuración de reportes
+reports:
+  figures_dir: "reports/figures/"
+  output_dir: "reports/documents/"
+
+# Logging
+logging:
+  level: "INFO"
+  file: "logs/project.log"
